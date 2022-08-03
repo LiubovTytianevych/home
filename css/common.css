@@ -1,45 +1,16 @@
-h1 {
-    color: black;
-    display: flex;
-    justify-content: start;
-    margin-block-start: 5em;
-    margin-block-end: 2em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    flex-wrap: wrap;
-    min-width: 600px;
-    position: relative;
-    top: 0px; left: 40px;
-}
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Square+Peg&display=swap');
+body {
+    padding: 0px;
     margin: 0px;
-    margin-bottom: 250px;
-    padding: 0px 40px;
-    background-image: url(../img/run-legs.jpeg);
-    background-position: 63.65%;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
+    background-color: gray;
+    overflow-x: hidden;
 }
-.header__baner  p {
-    color: black;
-    display: flex;
-    justify-content: start;
-    margin-block-start: 5em;
-    margin-block-end: 2em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    flex-wrap: wrap;
-    min-width: 600px;
-    position: relative;
-    top: 0px; left: 40px;  
+.container {
+    max-width: 1150px;
 }
-.header__nav-menu {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+a {
+    color: #ffff;
+    font-family:;
+    text-decoration: none;
 }
- 
