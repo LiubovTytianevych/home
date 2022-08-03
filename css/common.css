@@ -3,14 +3,15 @@
 body {
     padding: 0px;
     margin: 0px;
-    background-color: gray;
+    background-color: black;
     overflow-x: hidden;
+    color: aliceblue;
 }
 .container {
     max-width: 1150px;
 }
 a {
     color: #ffff;
-    font-family:;
+    font-family:'Anton';
     text-decoration: none;
 }
