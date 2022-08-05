@@ -1,31 +1,35 @@
 
-    h2 {
-        font-family: 'Anton' ;
-        font-weight: 600; 
-        font-size: 30px; 
-        padding: 30px;
-        margin: auto;
-        line-height: 30px;
+h2 {
+    font-family: 'Anton' ;
+    font-weight: 600; 
+    font-size: 30px; 
+    padding: 30px;
+    margin: auto;
+    line-height: 30px;
     } 
 .text-content {
-    display: block;
+    display: grid;
     min-width: 600px;
-    position: relative;
-    top: 0px; left: 40px;
-    background-color:gray;
-    border-radius: 3em;
-    margin: 5%;
+    top: 30px; left: 30px;
+    background-color:rgb(49, 36, 46);
+    border-radius: 50em;
+    margin: 2%;
+    justify-content: center;
 }
 .list__content {
     color:rgb(250, 253,255);
     font-weight: 300;
     font-size: 20px;
-    padding: 25px;
-    margin: auto;
+    padding: 15px;
+    margin: 1px;
     line-height: 20px;
+    justify-content: center;
 }
 ul {
    font-weight: 300;
    font-size: 15px; 
    line-height: 40px;
+   padding: 15px;
+   margin: 5px;
+   justify-content: center;
 }

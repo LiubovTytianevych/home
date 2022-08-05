@@ -1,17 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Square+Peg&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-    padding: 0px;
-    margin: 0px;
-    background-color: black;
-    overflow-x: hidden;
-    color: aliceblue;
+     padding: 0px;
+     margin: 0px;
+     background-color: black;
+     overflow-x: hidden;
+     color: aliceblue;
 }
 .container {
-    max-width: 1150px;
+           max-width: 1150px;
 }
 a {
-    color: #ffff;
-    font-family:'Anton';
-    text-decoration: none;
+  color: #ffff;
+  font-family:'Anton';
+  text-decoration: none;
+}
+img {
+    display:block;
+    width: 100%;
 }
