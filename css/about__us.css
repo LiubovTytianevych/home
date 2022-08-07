@@ -1,12 +1,13 @@
 .text-content__about {
     display:grid;
     justify-content: center;
-    position: relative;
     top: 20px; left: 10px;
     background-color: rgb(49, 36, 46);
     border-radius: 50em;
     margin: 2%;
     padding: 12%;
+    height: 600px;
+    align-items: center;
 }
 h4 {
     font-family: 'Anton' ;
@@ -15,8 +16,7 @@ h4 {
     padding: 20px;
     margin: auto;
     line-height: 40px;
-    justify-content: center;
-    position: relative;
+    justify-content: center;  
 }
 p {
     font-family: 'Josefin Sans', sans-serif;
